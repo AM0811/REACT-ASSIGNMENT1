@@ -12,7 +12,7 @@ function MedicalTreatmentPanel(){
 
 
   function eventHandler(){
-    window.alert("[" + "name = " + medicaltreatmentname + ", treatId = "+ medicaltreatmenttreatId +  ", treatCourseId = "+ medicaltreatmenttreatCourseId + ", type = "+ medicaltreatmenttype + ", category = "+ medicaltreatmentcategory + ", startDate = "+ medicaltreatmentstartDate +"]");
+    window.alert("[" + "name = " + medicaltreatmentname + ", treatId = "+ medicaltreatmenttreatId +  ", treatCourseId = "+ medicaltreatmenttreatCourseId + ", type = "+ medicaltreatmenttype + ", category = "+ medicaltreatmentcategory + ", startDate = "+ medicaltreatmentstartDate + "]");
   }
 
   // function onChangeHandler(){
@@ -48,7 +48,7 @@ function MedicalTreatmentPanel(){
 
       <br/>
       
-      <input placeholder= "Start Date" value={medicaltreatmentstartdate} onChange ={e => setMedicalTreatmentstartDate(e.target.value)}/>
+      <input placeholder= "Start Date" value={medicaltreatmentstartdate} onChange ={e => setMedicaltreatmentstartDate(e.target.value)}/>
 
       <br/>
       {/* {treatId}
