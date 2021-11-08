@@ -8,11 +8,11 @@ function MedicalTreatmentPanel(){
   const[medicaltreatmenttype, setMedicaltreatmentType] = React.useState('');
   const[medicaltreatmentcategory, setMedicaltreatmentCategory] = React.useState('');
   const[medicaltreatmentname, setMedicaltreatmentName] = React.useState('');
-  const[medicaltreatmentstartdate, setMedicaltreatmentStartDate] = React.useState('');
+  const[medicaltreatmentstartdate, setMedicaltreatmentstartDate] = React.useState('');
 
 
   function eventHandler(){
-    window.alert( name = {name} treatId = {treatId} treatCourseId = {treatCourseId} type = {type} category = {category} startDate = {startDate});
+    window.alert("[" + "name = " + medicaltreatmentname + ", treatId = "+ medicaltreatmenttreatId +  ", treatCourseId = "+ medicaltreatmenttreatCourseId + ", type = "+ medicaltreatmenttype + ", category = "+ medicaltreatmentcategory + ", startDate = "+ medicaltreatmentstartDate +"]");
   }
 
   // function onChangeHandler(){
@@ -48,7 +48,7 @@ function MedicalTreatmentPanel(){
 
       <br/>
       
-      <input placeholder= "Start Date" value={medicaltreatmentstartdate} onChange ={e => setMedicaltreatmentStartDate(e.target.value)}/>
+      <input placeholder= "Start Date" value={medicaltreatmentstartdate} onChange ={e => setMedicalTreatmentstartDate(e.target.value)}/>
 
       <br/>
       {/* {treatId}
