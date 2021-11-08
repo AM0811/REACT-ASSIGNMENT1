@@ -10,7 +10,7 @@ const treatCourseId1 = "1";
 const type1 = "chemo";
 const category1 = "1";
 const name1 = "Agnes";
-const startDate1 = "02/11/2021"; 
+const startDate1 = Date(); 
 
 export default function App() {
   return (
