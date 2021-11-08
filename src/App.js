@@ -2,20 +2,24 @@
 import React from "react";
 import "./style.css";
 import MedicalTreatment from "./MedicalTreatment";
+import  MedicalTreatmentPanel from "./MedicalTreatmentPanel";
 
 
 //Q2 one instance of the MedicalTreatment
-const treatId1  = "AS248";
-const treatCourseId1 = "1";
-const type1 = "chemo";
-const category1 = "1";
-const name1 = "Agnes";
-const startDate1 = Date(); 
+const treatId  = "AS248";
+const treatCourseId = "1";
+const type = "chemo";
+const category = "1";
+const name = "Agnes";
+const startDate = Date(); 
 
 export default function App() {
   return (
     <div>
-      <MedicalTreatment name = {name1} treatId = {treatId1} treatCourseId = {treatCourseId1} type = {type1} category = {category1} startDate = {startDate1}/>
+      <MedicalTreatment name = {name} treatId = {treatId} treatCourseId = {treatCourseId} type = {type} category = {category} startDate = {startDate}/>
+
+      <br/>
+      <MedicalTreatmentPanel/>
     </div>
   );
 }
