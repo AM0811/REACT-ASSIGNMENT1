@@ -8,7 +8,7 @@ function MedicalTreatmentPanel(){
   const[medicaltreatmenttype, setMedicaltreatmentType] = React.useState('');
   const[medicaltreatmentcategory, setMedicaltreatmentCategory] = React.useState('');
   const[medicaltreatmentname, setMedicaltreatmentName] = React.useState('');
-  const[medicaltreatmentstartdate, setMedicaltreatmentstartDate] = React.useState('');
+  const[medicaltreatmentstartdate, setMedicaltreatmentstartDate] = React.useState(Date());
 
 
   function eventHandler(){
