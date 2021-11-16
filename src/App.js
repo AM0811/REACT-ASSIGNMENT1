@@ -1,8 +1,7 @@
 //ASSIGNMENT 1
 import React from "react";
 import "./style.css";
-import MedicalTreatment from "./MedicalTreatment";
-import  MedicalTreatmentPanel from "./MedicalTreatmentPanel";
+import MedicalTreatment from "./MedicalTreatment"
 
 
 //Q2 one instance of the MedicalTreatment
@@ -19,7 +18,7 @@ export default function App() {
       <MedicalTreatment name = {name} treatId = {treatId} treatCourseId = {treatCourseId} type = {type} category = {category} startDate = {startDate}/>
 
       <br/>
-      <MedicalTreatmentPanel/>
+      
     </div>
   );
 }
