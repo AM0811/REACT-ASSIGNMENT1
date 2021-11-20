@@ -6,11 +6,11 @@ import MedicalTreatment from "./MedicalTreatment"
 
 
 //Q2 one instance of the MedicalTreatment
-const treatId  = "AS248";
-const treatCourseId = "1";
-const type = "chemo";
-const category = "1";
-const name = "Agnes";
+const treatId  = 1;
+const treatCourseId = "AS01";
+const type = "Radiation";
+const category = "Sarcoma";
+const name = "Brachyerapy";
 const startDate = Date(); 
 
 export default function App() {
