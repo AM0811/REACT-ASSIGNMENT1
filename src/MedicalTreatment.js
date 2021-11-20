@@ -6,6 +6,7 @@ import React from 'react';
 export default function MedicalTreatment(props){
   return(
     <div>
+      <p><h1>Patient Treatment Record</h1></p>
       <p>Treatment Id: {props.treatId} </p>
       <p>Treatment Name: {props.name} </p>
       
