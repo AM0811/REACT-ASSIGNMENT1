@@ -6,7 +6,12 @@ import React from 'react';
 export default function MedicalTreatment(props){
   return(
     <div>
-      {props.name} {props.treatId} {props.treatCourseId} {props.type} {props.category}  {props.startDate}      
+      <p>{props.name} </p>
+      <p>{props.treatId} </p>
+      <p> {props.treatCourseId} </p>
+      <p>{props.type} </p>
+      <p>{props.category} </p>
+      <p>{props.startDate} </p>     
       </div>
   )
 }

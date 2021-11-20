@@ -1,4 +1,5 @@
-//ASSIGNMENT 1
+//ASSIGNMENT 
+//Q1
 import React from "react";
 import "./style.css";
 import MedicalTreatment from "./MedicalTreatment"
