@@ -11,7 +11,7 @@ const treatCourseId = "AS01";
 const type = "Radiation";
 const category = "Sarcoma";
 const name = "Brachyerapy";
-const startDate = Date(); 
+const startDate = "01/01/2021"; 
 
 export default function App() {
   return (
